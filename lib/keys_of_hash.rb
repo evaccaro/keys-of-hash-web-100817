@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(arguments)
+  def Hash.keys_of(arguments)
     answer = []
     if arguments == Hash.keys
       answer.push(arguments)
