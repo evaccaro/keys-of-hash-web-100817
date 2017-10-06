@@ -1,8 +1,11 @@
 class Hash
   def keys_of(arguments)
     answer = []
-    if arguments == self.keys
-      answer.push(arguments)
+    self.each do |name, place|
+    if arguments == place
+      answer.push(name)
     end
+  end
+      answer
   end
 end
