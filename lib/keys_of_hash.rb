@@ -1,7 +1,7 @@
 class Hash
   def Hash.keys_of(arguments)
     answer = []
-    if arguments == animals.keys
+    if arguments == self.keys
       answer.push(arguments)
     end
   end
