@@ -1,5 +1,5 @@
 class Hash
-  def keys_of(*arguments)
+  def keys_of(arguments)
     answer = []
     self.each do |name, place|
     if arguments == place
